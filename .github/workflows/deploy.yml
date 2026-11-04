@@ -28,7 +28,9 @@ jobs:
           node-version: 24
 
       - name: Install dependencies
-        run: npm install
+        run: |
+          rm -rf node_modules
+          npm install
 
       - name: Build website
         run: npm run build
