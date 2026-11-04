@@ -1,6 +1,6 @@
-# Vacuum Rental Admin Dashboard
+# HomeEase Rental Admin Dashboard
 
-Starter admin website for your vacuum-rental locker project. It currently uses sample data only; it does not connect to real lockers, accept payments, or control hardware.
+Starter admin website for your HomeEase-rental locker project. It currently uses sample data only; it does not connect to real lockers, accept payments, or control hardware.
 
 ## Run locally
 Requires Node.js 18.18+ (Node 20+ recommended) and npm.
@@ -20,7 +20,7 @@ npm run preview
 
 ## Pages included
 - Dashboard: locker counts, demo revenue, rental activity, recent orders
-- Lockers: search lockers, view door/vacuum sensor placeholders, change demo status
+- Lockers: search lockers, view door/HomeEase sensor placeholders, change demo status
 - Orders: searchable order and payment records
 - Rentals: active, return-pending, and completed rental records
 - Settings: demo rental price and duration
